@@ -3,7 +3,7 @@ Time Calcs is a side toy project using React Native. It is a project targeted to
 
 In the app, user can use MM:SS or HH:MM:SS format to calculate time.
 
-# prerequisite
+# Pre-requisite
 1. Node.js
 2. XCode or Android Studio Emulator
 
@@ -17,7 +17,7 @@ $ npm install -g expo-cli
 
 2. Clone the project
 
-3. install necessary package
+3. install necessary packages
 ```sh
 $ npm install
 ```
