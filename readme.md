@@ -29,3 +29,6 @@ $ npm start
 
 # Demo
 https://expo.io/@marcowing/timecalcs
+
+# License
+TimeCalcsReact is licensed under the MIT License.
