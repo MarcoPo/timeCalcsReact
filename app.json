@@ -1,11 +1,13 @@
 {
   "expo": {
-    "name": "xdetest",
-    "description": "This project is really great.",
-    "slug": "xdetest",
+    "name": "timecalcs",
+    "slug": "timecalcs",
     "privacy": "public",
-    "sdkVersion": "26.0.0",
-    "platforms": ["ios", "android"],
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

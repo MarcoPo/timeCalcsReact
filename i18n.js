@@ -1,15 +1,17 @@
 import i18n from 'i18next';
 import XHR from 'i18next-xhr-backend';
-import Expo from 'expo';
+//import Expo from 'expo';
+import { Localization } from 'expo';
 // creating a language detection plugin using expo
 // http://i18next.com/docs/ownplugin/#languagedetector
 const languageDetector = {
   type: 'languageDetector',
   async: true, // async detection
   detect: (cb) => {
-    return Expo.DangerZone.Localization.getCurrentLocaleAsync()
-      .then(lng => { cb(lng.split("_")[0]); 
-        console.log("detected lng = " + lng);
+    return Localization.getLocalizationAsync()
+      .then(lng => { console.log("detected lng = " + lng);
+      cb(Localization.locale.split("_")[0]); 
+        
        })
   },
   init: () => {},
