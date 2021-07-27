@@ -1,14 +1,24 @@
 import React, { Component } from 'react';
 import { Button, Text, View, StyleSheet, TouchableHighlight, Alert} from 'react-native';
 import SettingScreen from './controller/Setting'
-import {createStackNavigator,createAppContainer,StackActions, NavigationActions} from 'react-navigation';
-import { Constants, AdMobBanner, AdMobInterstitial, PublisherBanner, AdMobRewarded } from 'expo';  
+import {createAppContainer,StackActions, NavigationActions} from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
+import { Constants} from 'expo';  
+import * as Localization from 'expo-localization';
+import {
+  AdMobBanner,
+  AdMobInterstitial,
+  PublisherBanner,
+  AdMobRewarded,
+  setTestDeviceIDAsync,
+} from 'expo-ads-admob';
  
 //for translation
 import i18n from './i18n'; 
 
 //styling
 import styles from './style/main.js'  
+
 
 class HomeScreen extends Component {
 

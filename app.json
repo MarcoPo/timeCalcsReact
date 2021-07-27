@@ -3,7 +3,6 @@
     "name": "timecalcs",
     "slug": "timecalcs",
     "privacy": "public",
-    "sdkVersion": "32.0.0",
     "platforms": [
       "ios",
       "android"

@@ -1,5 +1,9 @@
 import {StyleSheet} from 'react-native';
-import { Constants } from 'expo';
+//import { Constants } from 'expo';
+//import {Constants} from 'expo-constants';
+//import * as Expo from 'expo'
+
+import Constants from 'expo-constants';
 
 const settingStyle = StyleSheet.create({
     container: {

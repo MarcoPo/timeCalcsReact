@@ -1,7 +1,8 @@
 import i18n from 'i18next';
 import XHR from 'i18next-xhr-backend';
 //import Expo from 'expo';
-import { Localization } from 'expo';
+//import { Localization } from 'expo';
+import * as Localization from 'expo-localization';
 // creating a language detection plugin using expo
 // http://i18next.com/docs/ownplugin/#languagedetector
 const languageDetector = {
@@ -29,7 +30,7 @@ i18n
       defaultNS: 'generals',
       backend: {
         // load from i18next-gitbook repo
-        loadPath: 'http://139.59.118.93/timescalc/locales/{{lng}}/{{ns}}.json',
+        loadPath: 'http://165.22.108.13/timescalc/locales/{{lng}}/{{ns}}.json',
         crossDomain: true
       },
       interpolation: {
