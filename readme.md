@@ -1,4 +1,4 @@
-# TimeCalcsReact
+# TimeCalcsReact Test Lun
 Time Calcs is a side toy project using React Native. It is a project targeted to experience how Reactive Native and Expo works.
 
 In the app, user can use MM:SS or HH:MM:SS format to calculate time.
